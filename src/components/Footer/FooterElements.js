@@ -57,6 +57,21 @@ export const SocialIcons = styled.div`
 `;
 
 export const SocialIconLink = styled.a`
-    color: #fff;
+    color: #afafaf;
     font-size: 24px;
+
+    &:hover {
+        color: #fff;
+        transition: 0.2s ease-in-out
+    }
+`;
+
+export const ContractTitle = styled.small`
+    color: #afafaf;
+    margin-bottom: 16px;
+`;
+
+export const ContractAddress = styled.small`
+    color: #afafaf;
+    margin-bottom: 16px;
 `;

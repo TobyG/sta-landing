@@ -14,7 +14,7 @@ export const homeObjOne = {
     imgStart: false,
     img: require('../../images/img1.png'),
     alt: 'car',
-    dark: true,
+    dark: false,
     primary: true,
     darkText: false
 }
@@ -37,7 +37,7 @@ export const homeObjTwo = {
     showButton: true,
     buttonLabel: 'Snapshot',
     imgStart: true,
-    img: require('../../images/img1.png'),
+    img: require('../../images/img2.png'),
     alt: 'car',
     dark: false,
     primary: false,

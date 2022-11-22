@@ -79,7 +79,7 @@ export const Subtitle = styled.p`
     font-size: 18px;
     line-height: 24px;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
-    //text-align: justify
+    text-align: justify
 `;
 
 export const BtnWrap = styled.div`

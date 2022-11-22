@@ -21,7 +21,7 @@ const HeroSection = () => {
             <HeroP>decentralized freelancing</HeroP>
             <HeroBtnWrapper>
                 <Button to="/" onMouseEnter={onHover} onMouseLeave={onHover}
-                primary='true' dark='true'>
+                primary={true} dark={false}>
                     Open App {hover ? <ArrowForward/> : <ArrowRight/>}
                 </Button>
             </HeroBtnWrapper>

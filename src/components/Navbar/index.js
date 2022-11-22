@@ -50,7 +50,7 @@ export const Navbar = ({toggle}) => {
                 </NavItem>
             </NavMenu>
             <NavBtn>
-                <NavBtnLink to="/">Enter App</NavBtnLink>
+                <NavBtnLink href="//app.solteria.xyz" target="_blank">Enter App</NavBtnLink>
             </NavBtn>
         </NavbarContainer>
     </Nav>

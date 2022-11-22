@@ -10,7 +10,7 @@ export const Button = styled(Link)`
     font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
     outline: none;
     cursor: pointer;
-    display: flex;
+    display: ${({showButton}) => (showButton ? 'flex' : 'none')};;
     justify-content: center;
     align-items: center;
     transition: all 0.2s ease-in-out;
